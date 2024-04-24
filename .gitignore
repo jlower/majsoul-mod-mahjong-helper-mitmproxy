@@ -1,0 +1,14 @@
+# playwright data
+data
+
+log
+config.json
+
+# python cache
+__pycache__
+
+# akagi files
+# *.so
+# *.pyd
+# *.pth
+

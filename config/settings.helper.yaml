@@ -1,0 +1,2 @@
+config:
+  api_url: https://localhost:12121/   # 小助手的地址
