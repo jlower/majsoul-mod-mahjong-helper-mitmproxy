@@ -29,7 +29,7 @@ def update(version):
     3. 等待1个小时后再试''')
             return version
         liqi = req.json()
-        if liqi['tag_name'] == prefix:
+        if liqi['tag_name'] == version:
             logger.error('liqi文件需要更新，但AutoLiqi项目还未更新，晚点再来试试吧！')
             logger.error('详细信息请看 https://github.com/Avenshy/AutoLiqi')
             return version
