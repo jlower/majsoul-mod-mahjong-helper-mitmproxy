@@ -5,4 +5,4 @@ plugin_enable:
 # liqi用于解析雀魂消息
 liqi:
   auto_update: true  # 是否自动更新
-  liqi_version: v0.11.36.w    # 本地liqi文件版本
+  liqi_version: v0.11.36.w  # 本地liqi文件版本
