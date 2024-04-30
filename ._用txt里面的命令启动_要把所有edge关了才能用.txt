@@ -1,3 +1,6 @@
+# 更换链接: 国服 https://game.maj-soul.com/1/ 国际服 https://mahjongsoul.game.yo-star.com/ 日服 https://game.mahjongsoul.com/index.html
+
+# 国服 https://game.maj-soul.com/1/
 activate
 conda activate majsoul-mod-mahjong-helper-mitmproxy
 start cmd /k "mitmdump -p 23410 -s addons.py"
@@ -5,6 +8,18 @@ start msedge --proxy-server=127.0.0.1:23410 --ignore-certificate-errors https://
 .\mahjong-helper.exe
 1
 
-# 更换链接: 国服 https://game.maj-soul.com/1/ 国际服 https://mahjongsoul.game.yo-star.com/ 日服 https://game.mahjongsoul.com/index.html
+# 国际服 https://mahjongsoul.game.yo-star.com/
+activate
+conda activate majsoul-mod-mahjong-helper-mitmproxy
+start cmd /k "mitmdump -p 23410 -s addons.py"
+start msedge --proxy-server=127.0.0.1:23410 --ignore-certificate-errors https://mahjongsoul.game.yo-star.com/
+.\mahjong-helper.exe
+1
 
-
+# 日服 https://game.mahjongsoul.com/index.html
+activate
+conda activate majsoul-mod-mahjong-helper-mitmproxy
+start cmd /k "mitmdump -p 23410 -s addons.py"
+start msedge --proxy-server=127.0.0.1:23410 --ignore-certificate-errors https://game.mahjongsoul.com/index.html
+.\mahjong-helper.exe
+1
