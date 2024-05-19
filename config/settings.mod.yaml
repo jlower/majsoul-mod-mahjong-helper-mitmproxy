@@ -92,8 +92,8 @@ config:
     200087: 408702
     200088: 408802
     200089: 408902
-  nickname: 湊泔水    # 自定义你的名字
-  star_chars:     # 星标角色
+  nickname: 湊泔水 # 自定义你的名字
+  star_chars:    # 星标角色
   - 200044
   - 200087
   - 200007
@@ -151,8 +151,8 @@ config:
   - 200001
   - 200088
   bianjietishi: false # 强制启用便捷提示，用于部分场没有宝牌指示、和牌指示等
-  title: 600027  # 当前使用的称号
-  loading_image: # 加载CG
+  title: 600027 # 当前使用的称号
+  loading_image:    # 加载CG
   - 240401
   - 240302
   - 240301
@@ -217,7 +217,7 @@ config:
   - 30740003
   - 30740002
   - 30740001
-  emoji: false # 不建议开启，用于解锁角色全部emoji
+  emoji: false # 不建议开启，用于解锁角色全部emoji，如果你本身角色没有额外表情，在对局中却发送额外表情，这种行为相当于自爆卡车
   views: # 各装扮页的装扮
     0:
     - item_id: 305609
@@ -573,12 +573,13 @@ config:
     8: []
     9: []
   views_index: 0 # 正在使用的装扮页
-  show_server: true
+  show_server: true # 显示其他玩家所在服务器
   verified: 2 # 标识设置，0为无标识，1为主播标识，2为Pro标识，显示在名字后面
+  anti_replace_nickname: true # 禁止将外服玩家设为默认名称，特殊时期必备
 # 资源文件lqc.lqbin的配置                            
 resource:
   auto_update: true # 自动更新lqc.lqbin
-  lqc_lqbin_version: v0.11.39.w   # lqc.lqbin文件版本
+  lqc_lqbin_version: v0.11.43.w   # lqc.lqbin文件版本
 # 下面是游戏的资源文件内容，包括需要获得的角色、物品等，不需要修改，除非你要自定义
 mod:
   character:
@@ -1090,6 +1091,7 @@ mod:
   - 600087
   - 600088
   - 600089
+  - 600090
   item:
   - 305001
   - 305002
