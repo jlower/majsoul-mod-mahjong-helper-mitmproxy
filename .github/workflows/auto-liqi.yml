@@ -1,0 +1,79 @@
+name: Auto Liqi
+
+on:
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+    auto-liqi:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v4
+
+            - name: Set up Python
+              uses: actions/setup-python@v5
+              with:
+                python-version: '3.10'
+
+            - name: Install requests
+              run: python -m pip install --upgrade pip install requests
+
+            - name: Set up Node.js
+              uses: actions/setup-node@v4
+
+            - name: Install protobufjs and protobufjs-cli
+              run: npm install -g protobufjs protobufjs-cli
+            
+            - name: Run get_liqi.py
+              run: python get_liqi.py
+
+            - name: Generate liqi.proto from liqi.json
+              run: pbjs -t proto3 liqi.json > liqi.proto
+
+            - name: Make the protoc executable
+              run: chmod +x protoc
+
+            - name: Generate liqi_pb2.py from liqi.proto
+              run: ./protoc --python_out=. liqi.proto
+
+            - name: Publish protobuf files
+              uses: actions/upload-artifact@v4
+              with:
+                name: ${{ env.liqi-json }}
+                path: |
+                  code.js
+                  liqi.json
+                  liqi.proto
+                  liqi_pb2.py
+
+            - name: Get latest release
+              id: get_latest_release
+              uses: joutvhu/get-release@v1
+              with:
+                latest: true
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              
+            - name: Upload release
+              uses: softprops/action-gh-release@v2
+              if: ${{ steps.get_latest_release.outputs.tag_name != env.liqi-json }}
+              with:
+                tag_name: ${{ env.liqi-json }}
+                token: ${{ secrets.GITHUB_TOKEN }}
+                body: |
+                  code.js ${{ env.code-js }}
+                  liqi.json ${{ env.liqi-json }}
+                make_latest: true
+                files: |
+                  code.js
+                  liqi.json
+                  liqi.proto
+                  liqi_pb2.py
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                   
