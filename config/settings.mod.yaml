@@ -150,7 +150,7 @@ config:
   - 200028
   - 200001
   - 200088
-  bianjietishi: false # 强制启用便捷提示，用于部分场没有宝牌指示、和牌指示等
+  bianjietishi: true # 强制启用便捷提示，用于部分场没有宝牌指示、和牌指示等
   title: 600027 # 当前使用的称号
   loading_image:    # 加载CG
   - 240501
