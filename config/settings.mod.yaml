@@ -155,7 +155,7 @@ config:
   - 200094
   - 200093
   bianjietishi: true  # 强制启用便捷提示，用于部分场没有宝牌指示、和牌指示等
-  title: 600027 # 当前使用的称号
+  title: 600003 # 当前使用的称号
   loading_image:    # 加载CG
   - 240602
   - 240601
@@ -593,7 +593,7 @@ config:
 # 资源文件lqc.lqbin的配置                            
 resource:
   auto_update: true # 自动更新lqc.lqbin
-  lqc_lqbin_version: v0.11.51.w   # lqc.lqbin文件版本
+  lqc_lqbin_version: v0.11.56.w   # lqc.lqbin文件版本
 # 下面是游戏的资源文件内容，包括需要获得的角色、物品等，不需要修改，除非你要自定义
 mod:
   character:
