@@ -94,6 +94,7 @@
     - 方式2（源码运行）：通过`git clone`或其他方式下载源码到本地，在`Python>=3.10`环境下，打开命令行，在当前目录运行`mitmdump -p 23410 -s addons.py`启动程序（首次运行需`pip install -r requirements.txt`安装依赖）
 1. 关闭程序，修改配置
     - 根据程序提示和自身需求修改
+1. 需要安装mitmproxy证书，访问mitm.it下载并安装证书 或 google搜索：mitmproxy 安装证书 或 用[Akagi项目](https://github.com/shinkuan/Akagi/tree/main)的懒人包安装证书
 1. 再次启动程序
 1. 启动游戏，分为网页版和客户端/Steam端。
     - 如果要启动网页版：（限`Chrome`/`Edge`）
