@@ -6368,7 +6368,6 @@ message ResFetchInfo {
     ResAllcommonViews all_common_views = 28;
     ResCollectedGameRecordList collected_game_record_list = 29;
     ResFetchMaintainNotice maintain_notice = 30;
-<<<<<<< HEAD
     ResRandomCharacter random_character = 31;
     ResFetchServerMaintenanceInfo maintenance_info = 32;
 }
@@ -6382,8 +6381,6 @@ message ResFetchServerMaintenanceInfo {
         string name = 1;
         bool open = 2;
     }
-=======
->>>>>>> 8b3d5afc280288a703efc69b9e1889e554b2cc45
 }
 
 message ReqUpgradeVillageBuilding {
@@ -7074,10 +7071,7 @@ message ResAuthGame {
     bool is_game_start = 4;
     GameConfig game_config = 5;
     repeated uint32 ready_id_list = 6;
-<<<<<<< HEAD
     repeated PlayerGameView robots = 7;
-=======
->>>>>>> 8b3d5afc280288a703efc69b9e1889e554b2cc45
 }
 
 message GameRestore {
