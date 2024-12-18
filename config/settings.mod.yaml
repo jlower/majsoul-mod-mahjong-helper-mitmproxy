@@ -687,10 +687,509 @@ config:
   show_server: true # 显示其他玩家所在服务器
   verified: 2 # 标识设置，0为无标识，1为主播标识，2为Pro标识，显示在名字后面
   anti_replace_nickname: true # 禁止将外服玩家设为默认名称，特殊时期必备
+  random_character: # 对局随机角色皮肤
+    enabled: false
+    pool:
+    - character_id: 200001
+      skin_id: 400106
+    - character_id: 200001
+      skin_id: 400102
+    - character_id: 200001
+      skin_id: 400104
+    - character_id: 200001
+      skin_id: 400103
+    - character_id: 200001
+      skin_id: 400101
+    - character_id: 200001
+      skin_id: 400105
+    - character_id: 200003
+      skin_id: 400304
+    - character_id: 200003
+      skin_id: 400303
+    - character_id: 200003
+      skin_id: 400302
+    - character_id: 200003
+      skin_id: 400301
+    - character_id: 200003
+      skin_id: 400305
+    - character_id: 200004
+      skin_id: 400401
+    - character_id: 200004
+      skin_id: 400405
+    - character_id: 200004
+      skin_id: 400406
+    - character_id: 200004
+      skin_id: 400402
+    - character_id: 200004
+      skin_id: 400403
+    - character_id: 200004
+      skin_id: 400404
+    - character_id: 200005
+      skin_id: 400507
+    - character_id: 200005
+      skin_id: 400506
+    - character_id: 200005
+      skin_id: 400505
+    - character_id: 200005
+      skin_id: 400501
+    - character_id: 200005
+      skin_id: 400502
+    - character_id: 200005
+      skin_id: 400503
+    - character_id: 200005
+      skin_id: 400504
+    - character_id: 200007
+      skin_id: 400701
+    - character_id: 200007
+      skin_id: 400702
+    - character_id: 200007
+      skin_id: 400705
+    - character_id: 200007
+      skin_id: 400706
+    - character_id: 200007
+      skin_id: 400707
+    - character_id: 200007
+      skin_id: 400703
+    - character_id: 200007
+      skin_id: 400708
+    - character_id: 200007
+      skin_id: 400704
+    - character_id: 200008
+      skin_id: 400806
+    - character_id: 200008
+      skin_id: 400805
+    - character_id: 200008
+      skin_id: 400801
+    - character_id: 200008
+      skin_id: 400802
+    - character_id: 200008
+      skin_id: 400803
+    - character_id: 200008
+      skin_id: 400804
+    - character_id: 200009
+      skin_id: 400906
+    - character_id: 200009
+      skin_id: 400905
+    - character_id: 200009
+      skin_id: 400901
+    - character_id: 200009
+      skin_id: 400902
+    - character_id: 200009
+      skin_id: 400903
+    - character_id: 200009
+      skin_id: 400904
+    - character_id: 200010
+      skin_id: 401004
+    - character_id: 200010
+      skin_id: 401003
+    - character_id: 200010
+      skin_id: 401002
+    - character_id: 200010
+      skin_id: 401001
+    - character_id: 200015
+      skin_id: 401503
+    - character_id: 200015
+      skin_id: 401502
+    - character_id: 200015
+      skin_id: 401501
+    - character_id: 200016
+      skin_id: 401604
+    - character_id: 200016
+      skin_id: 401603
+    - character_id: 200016
+      skin_id: 401602
+    - character_id: 200016
+      skin_id: 401601
+    - character_id: 200016
+      skin_id: 401605
+    - character_id: 200016
+      skin_id: 401606
+    - character_id: 200017
+      skin_id: 401707
+    - character_id: 200017
+      skin_id: 401706
+    - character_id: 200017
+      skin_id: 401702
+    - character_id: 200017
+      skin_id: 401701
+    - character_id: 200017
+      skin_id: 401708
+    - character_id: 200018
+      skin_id: 401804
+    - character_id: 200018
+      skin_id: 401803
+    - character_id: 200018
+      skin_id: 401802
+    - character_id: 200018
+      skin_id: 401801
+    - character_id: 200019
+      skin_id: 401901
+    - character_id: 200019
+      skin_id: 401905
+    - character_id: 200019
+      skin_id: 401902
+    - character_id: 200019
+      skin_id: 401903
+    - character_id: 200019
+      skin_id: 401906
+    - character_id: 200019
+      skin_id: 401904
+    - character_id: 200020
+      skin_id: 402006
+    - character_id: 200020
+      skin_id: 402005
+    - character_id: 200020
+      skin_id: 402001
+    - character_id: 200020
+      skin_id: 402002
+    - character_id: 200020
+      skin_id: 402004
+    - character_id: 200020
+      skin_id: 402003
+    - character_id: 200021
+      skin_id: 402105
+    - character_id: 200021
+      skin_id: 402101
+    - character_id: 200021
+      skin_id: 402103
+    - character_id: 200021
+      skin_id: 402102
+    - character_id: 200021
+      skin_id: 402104
+    - character_id: 200024
+      skin_id: 402406
+    - character_id: 200024
+      skin_id: 402405
+    - character_id: 200024
+      skin_id: 402401
+    - character_id: 200024
+      skin_id: 402402
+    - character_id: 200024
+      skin_id: 402403
+    - character_id: 200024
+      skin_id: 402404
+    - character_id: 200026
+      skin_id: 402603
+    - character_id: 200026
+      skin_id: 402601
+    - character_id: 200026
+      skin_id: 402602
+    - character_id: 200026
+      skin_id: 402604
+    - character_id: 200028
+      skin_id: 402805
+    - character_id: 200028
+      skin_id: 402801
+    - character_id: 200028
+      skin_id: 402802
+    - character_id: 200028
+      skin_id: 402804
+    - character_id: 200028
+      skin_id: 402803
+    - character_id: 200029
+      skin_id: 402904
+    - character_id: 200029
+      skin_id: 402903
+    - character_id: 200029
+      skin_id: 402902
+    - character_id: 200029
+      skin_id: 402901
+    - character_id: 200029
+      skin_id: 402905
+    - character_id: 200032
+      skin_id: 403206
+    - character_id: 200032
+      skin_id: 403205
+    - character_id: 200032
+      skin_id: 403201
+    - character_id: 200032
+      skin_id: 403202
+    - character_id: 200032
+      skin_id: 403203
+    - character_id: 200032
+      skin_id: 403204
+    - character_id: 200034
+      skin_id: 403404
+    - character_id: 200034
+      skin_id: 403403
+    - character_id: 200034
+      skin_id: 403402
+    - character_id: 200034
+      skin_id: 403401
+    - character_id: 200035
+      skin_id: 403503
+    - character_id: 200035
+      skin_id: 403502
+    - character_id: 200035
+      skin_id: 403501
+    - character_id: 200035
+      skin_id: 403504
+    - character_id: 200036
+      skin_id: 403603
+    - character_id: 200036
+      skin_id: 403602
+    - character_id: 200036
+      skin_id: 403604
+    - character_id: 200036
+      skin_id: 403601
+    - character_id: 200037
+      skin_id: 403702
+    - character_id: 200037
+      skin_id: 403701
+    - character_id: 200037
+      skin_id: 403703
+    - character_id: 200037
+      skin_id: 403704
+    - character_id: 200038
+      skin_id: 403806
+    - character_id: 200038
+      skin_id: 403805
+    - character_id: 200038
+      skin_id: 403801
+    - character_id: 200038
+      skin_id: 403802
+    - character_id: 200038
+      skin_id: 403804
+    - character_id: 200038
+      skin_id: 403803
+    - character_id: 200040
+      skin_id: 404003
+    - character_id: 200040
+      skin_id: 404002
+    - character_id: 200040
+      skin_id: 404001
+    - character_id: 200041
+      skin_id: 404103
+    - character_id: 200041
+      skin_id: 404102
+    - character_id: 200041
+      skin_id: 404101
+    - character_id: 200044
+      skin_id: 404401
+    - character_id: 200044
+      skin_id: 404402
+    - character_id: 200044
+      skin_id: 404403
+    - character_id: 200044
+      skin_id: 404404
+    - character_id: 200046
+      skin_id: 404602
+    - character_id: 200046
+      skin_id: 404601
+    - character_id: 200046
+      skin_id: 404604
+    - character_id: 200046
+      skin_id: 404603
+    - character_id: 200048
+      skin_id: 404803
+    - character_id: 200048
+      skin_id: 404802
+    - character_id: 200048
+      skin_id: 404801
+    - character_id: 200048
+      skin_id: 404805
+    - character_id: 200048
+      skin_id: 404804
+    - character_id: 200050
+      skin_id: 405002
+    - character_id: 200050
+      skin_id: 405001
+    - character_id: 200050
+      skin_id: 405003
+    - character_id: 200052
+      skin_id: 405202
+    - character_id: 200052
+      skin_id: 405201
+    - character_id: 200053
+      skin_id: 405303
+    - character_id: 200053
+      skin_id: 405302
+    - character_id: 200053
+      skin_id: 405301
+    - character_id: 200055
+      skin_id: 405501
+    - character_id: 200055
+      skin_id: 405502
+    - character_id: 200055
+      skin_id: 405503
+    - character_id: 200057
+      skin_id: 405701
+    - character_id: 200057
+      skin_id: 405702
+    - character_id: 200057
+      skin_id: 405703
+    - character_id: 200058
+      skin_id: 405801
+    - character_id: 200058
+      skin_id: 405802
+    - character_id: 200058
+      skin_id: 405803
+    - character_id: 200059
+      skin_id: 405904
+    - character_id: 200059
+      skin_id: 405903
+    - character_id: 200059
+      skin_id: 405902
+    - character_id: 200059
+      skin_id: 405901
+    - character_id: 200059
+      skin_id: 405905
+    - character_id: 200061
+      skin_id: 406101
+    - character_id: 200061
+      skin_id: 406102
+    - character_id: 200064
+      skin_id: 406402
+    - character_id: 200064
+      skin_id: 406401
+    - character_id: 200064
+      skin_id: 406403
+    - character_id: 200065
+      skin_id: 406502
+    - character_id: 200065
+      skin_id: 406501
+    - character_id: 200065
+      skin_id: 406503
+    - character_id: 200066
+      skin_id: 406605
+    - character_id: 200066
+      skin_id: 406601
+    - character_id: 200066
+      skin_id: 406602
+    - character_id: 200066
+      skin_id: 406603
+    - character_id: 200066
+      skin_id: 406604
+    - character_id: 200068
+      skin_id: 406803
+    - character_id: 200068
+      skin_id: 406802
+    - character_id: 200068
+      skin_id: 406801
+    - character_id: 200069
+      skin_id: 406901
+    - character_id: 200069
+      skin_id: 406902
+    - character_id: 200069
+      skin_id: 406903
+    - character_id: 200073
+      skin_id: 407303
+    - character_id: 200073
+      skin_id: 407302
+    - character_id: 200073
+      skin_id: 407301
+    - character_id: 200074
+      skin_id: 407401
+    - character_id: 200074
+      skin_id: 407402
+    - character_id: 200074
+      skin_id: 407403
+    - character_id: 200076
+      skin_id: 407602
+    - character_id: 200076
+      skin_id: 407601
+    - character_id: 200077
+      skin_id: 407703
+    - character_id: 200077
+      skin_id: 407702
+    - character_id: 200077
+      skin_id: 407701
+    - character_id: 200079
+      skin_id: 407901
+    - character_id: 200079
+      skin_id: 407903
+    - character_id: 200079
+      skin_id: 407902
+    - character_id: 200080
+      skin_id: 408003
+    - character_id: 200080
+      skin_id: 408002
+    - character_id: 200080
+      skin_id: 408001
+    - character_id: 200081
+      skin_id: 408103
+    - character_id: 200081
+      skin_id: 408102
+    - character_id: 200081
+      skin_id: 408101
+    - character_id: 200083
+      skin_id: 408302
+    - character_id: 200083
+      skin_id: 408301
+    - character_id: 200084
+      skin_id: 408402
+    - character_id: 200084
+      skin_id: 408401
+    - character_id: 200084
+      skin_id: 408403
+    - character_id: 200086
+      skin_id: 408603
+    - character_id: 200086
+      skin_id: 408602
+    - character_id: 200086
+      skin_id: 408601
+    - character_id: 200087
+      skin_id: 408701
+    - character_id: 200087
+      skin_id: 408702
+    - character_id: 200087
+      skin_id: 408703
+    - character_id: 200088
+      skin_id: 408803
+    - character_id: 200088
+      skin_id: 408802
+    - character_id: 200088
+      skin_id: 408801
+    - character_id: 200089
+      skin_id: 408901
+    - character_id: 200089
+      skin_id: 408902
+    - character_id: 200089
+      skin_id: 408903
+    - character_id: 200091
+      skin_id: 409102
+    - character_id: 200091
+      skin_id: 409101
+    - character_id: 200093
+      skin_id: 409302
+    - character_id: 200093
+      skin_id: 409301
+    - character_id: 200094
+      skin_id: 409402
+    - character_id: 200094
+      skin_id: 409401
+    - character_id: 200095
+      skin_id: 409502
+    - character_id: 200095
+      skin_id: 409501
+    - character_id: 20000100
+      skin_id: 40010003
+    - character_id: 20000100
+      skin_id: 40010002
+    - character_id: 20000100
+      skin_id: 40010001
+    - character_id: 20000101
+      skin_id: 40010103
+    - character_id: 20000101
+      skin_id: 40010102
+    - character_id: 20000101
+      skin_id: 40010101
+    - character_id: 20000102
+      skin_id: 40010203
+    - character_id: 20000102
+      skin_id: 40010202
+    - character_id: 20000102
+      skin_id: 40010201
+    - character_id: 20000103
+      skin_id: 40010303
+    - character_id: 20000103
+      skin_id: 40010302
+    - character_id: 20000103
+      skin_id: 40010301
 # 资源文件lqc.lqbin的配置                            
 resource:
   auto_update: true # 自动更新lqc.lqbin
-  lqc_lqbin_version: v0.11.104.w  # lqc.lqbin文件版本
+  lqc_lqbin_version: v0.11.108.w   # lqc.lqbin文件版本
 # 下面是游戏的资源文件内容，包括需要获得的角色、物品等，不需要修改，除非你要自定义
 mod:
   character:
