@@ -6,4 +6,4 @@ plugin_enable:
 liqi:
   auto_update: true  # 是否自动更新
   github_token: '' # 仅供自己使用，请勿泄漏给任何人
-  liqi_version: v0.11.108.w    # 本地liqi文件版本
+  liqi_version: v0.11.115.w    # 本地liqi文件版本

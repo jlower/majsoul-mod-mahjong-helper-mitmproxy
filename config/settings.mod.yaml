@@ -255,11 +255,10 @@ config:
   emoji: false # 不建议开启，用于解锁角色全部emoji，如果你本身角色没有额外表情，在对局中却发送额外表情，这种行为相当于自爆卡车
   views: # 各装扮页的装扮
     0:
-    - item_id: 305609
-      item_id_list:
-      - 305609
+    - item_id: 30560006
       slot: 0
       type: 0
+      item_id_list: []
     - slot: 1
       item_id: 305209
       type: 0
@@ -630,7 +629,7 @@ config:
       - 0
       item_id: 0
     - slot: 8
-      item_id: 307008
+      item_id: 30700002
       type: 0
       item_id_list: []
     2:
@@ -688,7 +687,61 @@ config:
       item_id: 307013
       type: 0
       item_id_list: []
-    3: []
+    3:
+    - item_id: 305610
+      slot: 0
+      type: 0
+      item_id_list: []
+    - slot: 1
+      item_id: 30520007
+      type: 0
+      item_id_list: []
+    - slot: 2
+      item_id: 30530007
+      type: 0
+      item_id_list: []
+    - slot: 10
+      item_id: 305902
+      type: 0
+      item_id_list: []
+    - slot: 4
+      type: 1
+      item_id_list:
+      - 305025
+      - 30505004
+      - 30505003
+      - 30505002
+      - 30505001
+      - 306201
+      - 305056
+      - 305055
+      - 305054
+      - 305053
+      - 305052
+      - 305051
+      - 305050
+      - 305026
+      item_id: 0
+    - slot: 5
+      item_id: 30550014
+      type: 0
+      item_id_list: []
+    - slot: 6
+      item_id: 305812
+      type: 0
+      item_id_list: []
+    - slot: 7
+      item_id: 30570007
+      type: 0
+      item_id_list: []
+    - slot: 13
+      item_id: 305718
+      type: 0
+      item_id_list: []
+    - slot: 8
+      item_id: 307011
+      type: 0
+      item_id_list: []
     4: []
     5: []
     6: []
@@ -1215,7 +1268,7 @@ config:
 # 资源文件lqc.lqbin的配置                            
 resource:
   auto_update: true # 自动更新lqc.lqbin
-  lqc_lqbin_version: v0.11.113.w   # lqc.lqbin文件版本
+  lqc_lqbin_version: v0.11.114.w   # lqc.lqbin文件版本
 # 下面是游戏的资源文件内容，包括需要获得的角色、物品等，不需要修改，除非你要自定义
 mod:
   character:
