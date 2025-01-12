@@ -3,10 +3,6 @@ data
 
 log
 config.json
-proto/lqc.lqbin
-proto/liqi_pb2.py
-proto/liqi.proto
-proto/liqi.json
 
 # python cache
 __pycache__
