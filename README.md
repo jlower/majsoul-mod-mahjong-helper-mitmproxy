@@ -1,0 +1,2 @@
+# majsoul-mod-mahjong-helper-mitmproxy
+本项目用于将雀魂的牌局发到日本麻将助手mahjong-helper 还支持了本地解锁雀魂全部皮肤mod的功能 基于mitmproxy的中间人攻击方式实现，支持网页版和客户端/Steam端
