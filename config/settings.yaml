@@ -1,0 +1,9 @@
+# 插件配置，true为开启，false为关闭
+plugin_enable:
+  mod: true  # mod用于解锁全部角色、皮肤、装扮等
+  helper: true  # helper用于将对局发送至雀魂小助手，不使用小助手请勿开启
+# liqi用于解析雀魂消息
+liqi:
+  auto_update: true  # 是否自动更新
+  github_token: '' # 仅供自己使用，请勿泄漏给任何人
+  liqi_version: v0.11.118.w    # 本地liqi文件版本
