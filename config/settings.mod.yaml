@@ -295,6 +295,8 @@ config:
       - 30505002
       - 30505003
       - 30505004
+      - 30505005
+      - 30505006
       item_id: 0
     - slot: 5
       item_id: 30550014
@@ -313,7 +315,7 @@ config:
       type: 0
       item_id_list: []
     - slot: 8
-      item_id: 307003
+      item_id: 30700003
       type: 0
       item_id_list: []
     1:
@@ -678,6 +680,8 @@ config:
       - 305052
       - 305050
       - 305026
+      - 30505005
+      - 30505006
       item_id: 0
     - slot: 5
       item_id: 305537
@@ -733,6 +737,8 @@ config:
       - 305051
       - 305050
       - 305026
+      - 30505005
+      - 30505006
       item_id: 0
     - slot: 5
       item_id: 305523
@@ -743,7 +749,7 @@ config:
       type: 0
       item_id_list: []
     - slot: 7
-      item_id: 30570007
+      item_id: 305710
       type: 0
       item_id_list: []
     - slot: 13
@@ -754,7 +760,63 @@ config:
       item_id: 307011
       type: 0
       item_id_list: []
-    4: []
+    4:
+    - item_id: 30560007
+      slot: 0
+      type: 0
+      item_id_list: []
+    - slot: 1
+      item_id: 308021
+      type: 0
+      item_id_list: []
+    - slot: 2
+      item_id: 305326
+      type: 0
+      item_id_list: []
+    - slot: 10
+      item_id: 305902
+      type: 0
+      item_id_list: []
+    - slot: 4
+      type: 1
+      item_id_list:
+      - 305051
+      - 305025
+      - 305026
+      - 305050
+      - 305052
+      - 305053
+      - 305054
+      - 305055
+      - 305056
+      - 306201
+      - 30505001
+      - 30505002
+      - 30505003
+      - 30505004
+      - 30505005
+      - 30505006
+      item_id: 0
+    - slot: 5
+      item_id: 30550017
+      type: 0
+      item_id_list: []
+    - slot: 6
+      item_id: 305809
+      type: 0
+      item_id_list: []
+    - slot: 7
+      item_id: 30570009
+      type: 0
+      item_id_list: []
+    - slot: 13
+      item_id: 305718
+      type: 0
+      item_id_list: []
+    - slot: 8
+      item_id: 307003
+      type: 0
+      item_id_list: []
     5: []
     6: []
     7: []
@@ -1291,6 +1353,8 @@ config:
       skin_id: 40010702
     - character_id: 20000107
       skin_id: 40010701
+# 资源文件lqc.lqbin的配置                            
+# 资源文件lqc.lqbin的配置                            
 # 资源文件lqc.lqbin的配置                            
 resource:
   auto_update: true # 自动更新lqc.lqbin
