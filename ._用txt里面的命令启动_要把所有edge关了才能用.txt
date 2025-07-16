@@ -2,7 +2,7 @@
 # 要使用代理的话 mitmdump 命令加上参数 --mode upstream:http://127.0.0.1:30809 端口号为代理软件的http端口号[v2rayN我的端口设置为30809，Clash默认端口为7890(新版有可能为了安全默认开启随机端口号)]
 # 国服不用代理的话记得删掉 mitmdump 命令上的参数 --mode upstream:http://127.0.0.1:30809
 
-# 用Proxy SwitchyOmega浏览器插件代理到http://127.0.0.1:23410，具体见README
+# 用 Proxy SwitchyOmega 或 Zero Omega 浏览器插件将流量代理到 http://127.0.0.1:23410 ，具体见README
 activate
 conda activate majsoul-mod-mahjong-helper-mitmproxy
 start cmd /k "mitmdump -p 23410 -s addons.py --mode upstream:http://127.0.0.1:30809"
