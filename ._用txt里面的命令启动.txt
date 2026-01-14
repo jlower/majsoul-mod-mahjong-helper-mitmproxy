@@ -7,6 +7,9 @@
 activate
 conda activate majsoul-mod-mahjong-helper-mitmproxy
 start cmd /k "mitmdump -p 23410 -s addons.py --mode upstream:http://127.0.0.1:30809"
+
+
+#启动小助手
 .\mahjong-helper.exe
 1
 
@@ -17,6 +20,9 @@ activate
 conda activate majsoul-mod-mahjong-helper-mitmproxy
 start cmd /k "mitmdump -p 23410 -s addons.py --mode upstream:http://127.0.0.1:30809"
 start msedge --proxy-server=127.0.0.1:23410 --ignore-certificate-errors
+
+
+#启动小助手
 .\mahjong-helper.exe
 1
 

@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '0 */4 * * *'
   workflow_dispatch:
+  repository_dispatch:
+    types: [update_available]
 
 jobs:
     auto-liqi:
@@ -74,3 +76,4 @@ jobs:
                   lqc.lqbin
               env:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                   
