@@ -3,4 +3,13 @@ config:
   - /charactor/huiyeji_WQ/bighead.png
   - /charactor/huiyeji_WQ/full.png
   - /charactor/huiyeji_WQ/smallhead.png
+  - /charactor/bamuwei_YZ/spine/spine.png
+  - /charactor/bamuwei_YZ/spine/spine_2.png
+  - /charactor/bamuwei_YZ/bighead.png
+  - /charactor/bamuwei_YZ/full.png
+  - /charactor/bamuwei_YZ/half.png
+  - /charactor/bamuwei_YZ/smallhead.png
+  - /charactor/you_BL/spine/spine.skel.txt
+  - /charactor/you_BL/spine/spine.atlas.txt
+  - /charactor/you_BL/spine/you_bl.png
   lq: []
