@@ -12,4 +12,7 @@ config:
   - /charactor/you_BL/spine/spine.skel.txt
   - /charactor/you_BL/spine/spine.atlas.txt
   - /charactor/you_BL/spine/you_bl.png
+  - /charactor/xiaoniaoyouchutian_NP/bighead.png
+  - /charactor/xiaoniaoyouchutian_NP/full.png
+  - /charactor/xiaoniaoyouchutian_NP/smallhead.png
   lq: []
