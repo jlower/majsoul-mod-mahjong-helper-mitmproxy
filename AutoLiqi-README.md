@@ -9,7 +9,7 @@ Using WebHook (every 5 minutes) & GitHub Action CronTab (every 4 hours) to check
 在[Release](https://github.com/Avenshy/AutoLiqi/releases/latest)中下载。
 
 ## Thanks
+
 protobufjs protobufjs-cli -> [protobufjs/protobuf.js](https://github.com/protobufjs/protobuf.js)
 
 protoc (3.20.1) -> [Protocol Buffers](https://github.com/protocolbuffers/protobuf/releases/tag/v3.20.1)
-
