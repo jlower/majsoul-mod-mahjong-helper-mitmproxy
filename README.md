@@ -1,3 +1,41 @@
+### 打开一个cmd界面，执行命令
+
+> 需要打开多个cmd界面时，bat文件中添加多行就行。
+
+```start cmd /k “命令”```
+
+#### 一个cmd界面执行多个命令
+
+1. 以“&”隔开多个命令，不管前面的命令是否成功，后面的都会执行：
+   ```start cmd /k  "命令1 & 命令2 & 命令3"```
+1. 以“&&”隔开多个命令，前面命令执行成功时，后面才会执行：
+   ```start cmd /k  "命令1 && 命令2 && 命令3"```
+1. 以“||”隔开多个命令，前面命令执行失败时，后面才会执行：
+   ```start cmd /k  "命令1 || 命令2 || 命令3"```
+
+### 更简单的新使用方法
+
+1. **要下载Proxy SwitchyOmega浏览器插件**
+1. 设置代理模式将网页流量代理到 ```http://127.0.0.1:23410``` , 使用全皮肤程序前先选择设定好的代理模式
+1. 全选并复制 ```._用txt里面的命令启动_要把所有edge关了才能用.txt``` 文件里的所有命令
+1. 打开cmd粘贴即可
+1. mahjong-helper的**源代码**在./mahjong-helper-src文件夹里面
+1. ~~默认不能使用代理科学上网，要用代理科学上网[见Q&A🤔](#qa)~~
+
+### 新使用方法
+
+1. **要把所有edge关了才能用**，先把edge所有页面关掉，把edge后台进程也都杀掉，再从快捷方式启动，如果正常的话应该能看到一行字“你使用的是不受支持的命令行标志……”，这样就是成功了。[见Q&A🤔](#qa)
+1. 全选并复制 ```._用txt里面的命令启动_要把所有edge关了才能用.txt``` 文件里的所有命令
+1. 打开cmd粘贴即可
+1. mahjong-helper的**源代码**在./mahjong-helper-src文件夹里面
+1. ~~默认不能使用代理科学上网，要用代理科学上网[见Q&A🤔](#qa)~~
+
+
+
+
+
+
+
 # 雀魂 MAX
 
 雀魂解锁全角色、皮肤、装扮等，基于 [mitmproxy](https://github.com/mitmproxy/mitmproxy) 的中间人攻击方式，支持网页版和客户端 / Steam 端。
@@ -37,8 +75,8 @@
 
 ### ☕ 请作者喝咖啡
 
-- [点我为作者发电（爱发电，支持微信/支付宝）](https://afdian.com/a/Avenshy)
-- [点我为作者发电（Patreon，支持信用卡/Paypal）](https://patreon.com/Avenshy)
+-   [点我为作者发电（爱发电，支持微信/支付宝）](https://afdian.com/a/Avenshy)
+-   [点我为作者发电（Patreon，支持信用卡/Paypal）](https://patreon.com/Avenshy)
 
 再次重申：本程序完全免费使用，没有收费功能，请喝咖啡完全自愿，作者非常感谢您！
 
@@ -57,27 +95,21 @@
 - [x] 解锁所有加载 CG
 - [x] 解锁所有表情（不推荐开启）
 - [x] 强制启用便捷提示
-  - 由于雀魂本身代码限制，王座无法正常启用便捷提示，因此，**开启此功能后进入王座对局，左上角会变成 “玉之间”**。请注意，这不是 BUG！
+    -   由于雀魂本身代码限制，王座无法正常启用便捷提示，因此，**开启此功能后进入王座对局，左上角会变成 “玉之间”**。请注意，这不是 BUG！
 - [x] 支持星标角色
 - [x] 自定义名称
 - [x] 显示玩家所在服务器
 - [x] 显示主播 / Pro 标识
 - [ ] 地铁模式
-- TODO……
+-   TODO……
 
 ### `helper` 功能
 
-- 将对局发送到 [mahjong-helper（雀魂小助手）](https://github.com/EndlessCheng/mahjong-helper)
-- [日本麻将助手介绍 mahjong-helper-README.md](./mahjong-helper-README.md)
+-   将对局发送到 [mahjong-helper（雀魂小助手）](https://github.com/EndlessCheng/mahjong-helper)
 
 ### `replace` 功能
 
-- 替换游戏资源文件，仅支持网页版。
-
-### `AutoLiqi` 功能
-
-- 用 Github Action 自动发布雀魂相关的 protobuf 文件更新
-- [AutoLiqi 介绍 AutoLiqi-README.md](./AutoLiqi-README.md)
+-   替换游戏资源文件，仅支持网页版。
 
 ### 打开一个cmd界面，执行命令
 
@@ -110,7 +142,7 @@
 1. 打开cmd粘贴即可
 1. mahjong-helper的**源代码**在./mahjong-helper-src文件夹里面
 1. ~~默认不能使用代理科学上网，要用代理科学上网[见Q&A🤔](#qa)~~
-
+  
 ## 🧐 使用说明
 
 ### 视频教程（老方法，不推荐）
@@ -122,7 +154,6 @@
 1. 启动程序
     - 方式 1（懒人模式）：在 [Releases](https://github.com/Avenshy/MajsoulMax/releases/latest) 里下载，解压后直接运行 `run.exe`（Windows 限定）
     - 方式 2（源码运行）：在 `Python>=3.10` 环境下，打开命令行（PowerShell / 终端）
-
         ```shell
         # 下载源码
         git clone https://github.com/Avenshy/MajsoulMax.git
@@ -133,7 +164,6 @@
         # 启动程序
         mitmdump -p 23410 -s addons.py
         ```
-
 2. 关闭程序（`Ctrl+C`），修改配置，可自行根据程序提示和自身需求修改
 3. 再次启动程序
 4. 启动游戏，分为网页版和客户端 / Steam 端。需要确保雀魂相关流量会经过本地 `python` 代理（默认监听 `127.0.0.1:23410`），具体示例见下文 “代理与分流” 一节。
@@ -189,10 +219,6 @@
 > 本地客户端 / Steam 端等进程需要在代理软件中开启 `TUN` / 增强模式，才能保证进程流量经过 `python` 启动的代理节点；但请务必注意避免回环代理，即你要保证从 `python` 发出的流量不会被分流回自身。
 >
 > 网页版（浏览器）一般只要正确配置系统代理或域名规则即可，通常不需要开启增强模式。
-
-#### 使用服务器部署
-
-见 [服务器部署教程 MajsoulMax_VPS_Deployment.md](./MajsoulMax_VPS_Deployment.md)
 
 ### 使用 Clash / Surge 规则分流
 
@@ -255,6 +281,17 @@ DOMAIN-KEYWORD,catmjstudio,🀄 雀魂麻将
 
 ```js
 function main(config) {
+    // 你不同机场的自动选择名称不一样就修改或者新增
+    const autoGroupName = (() => {
+        if (config['proxy-groups'].some(g => g.name === '自动选择')) {
+            return '自动选择';
+        }
+        if (config['proxy-groups'].some(g => g.name === '♻️自动选择')) {
+            return '♻️自动选择';
+        }
+        return 'DIRECT';
+    })();
+
     config.proxies.push({
         name: 'MajsoulMax',
         type: 'http',
@@ -263,15 +300,45 @@ function main(config) {
         tls: true,
     });
 
+    const fallbackProxies = ['MajsoulMax'];
+    if (config['proxy-groups'].some(g => g.name === '自动选择')) {
+        fallbackProxies.push('自动选择');
+    }
+    if (config['proxy-groups'].some(g => g.name === '♻️自动选择')) {
+        fallbackProxies.push('♻️自动选择');
+    }
+    fallbackProxies.push('DIRECT');
+
     config['proxy-groups'].push({
-        name: '🀄 雀魂麻将',
+        name: '雀魂Max-故障转移',  
+        type: 'fallback',
+        proxies: fallbackProxies,
+        url: 'http://www.gstatic.com/generate_204',
+        interval: 30,
+        icon: 'https://www.maj-soul.com/homepage/img/logotaiwan.png',
+    });
+
+    const selectProxies = [
+        '雀魂Max-故障转移',  
+        'MajsoulMax',
+    ];
+    if (config['proxy-groups'].some(g => g.name === '自动选择')) {
+        selectProxies.push('自动选择');
+    }
+    if (config['proxy-groups'].some(g => g.name === '♻️自动选择')) {
+        selectProxies.push('♻️自动选择');
+    }
+    selectProxies.push('DIRECT');
+
+    config['proxy-groups'].push({
+        name: '🀄 雀魂麻将',  
         type: 'select',
-        proxies: ['DIRECT', 'MajsoulMax'],
+        proxies: selectProxies,
         icon: 'https://www.maj-soul.com/homepage/img/logotaiwan.png',
     });
 
     const bypass = [
-        'AND, ((OR, ((PROCESS-NAME-REGEX, python.*?),(PROCESS-NAME, MajsoulMax.exe))), (OR, ((PROCESS-NAME,Jantama_MahjongSoul.exe),(PROCESS-NAME,雀魂麻將.exe),(DOMAIN-KEYWORD, majsoul), (DOMAIN-KEYWORD, maj-soul), (DOMAIN-KEYWORD, mahjongsoul), (DOMAIN-KEYWORD, catmjstudio)))), DIRECT',
+        `AND, ((OR, ((PROCESS-NAME-REGEX, python.*?),(PROCESS-NAME, MajsoulMax.exe))), (OR, ((PROCESS-NAME,Jantama_MahjongSoul.exe),(PROCESS-NAME,雀魂麻將.exe),(DOMAIN-KEYWORD, majsoul), (DOMAIN-KEYWORD, maj-soul), (DOMAIN-KEYWORD, mahjongsoul), (DOMAIN-KEYWORD, catmjstudio)))), ${autoGroupName}`,
     ];
 
     const clientRules = ['PROCESS-NAME,Jantama_MahjongSoul.exe,🀄 雀魂麻将', 'PROCESS-NAME,雀魂麻將.exe,🀄 雀魂麻将'];
@@ -321,7 +388,6 @@ function main(config) {
 ## 📄配置文件解释
 
 ### `settings.yaml`
-
 这是主程序配置文件，用于存储插件配置和liqi依赖的更新信息。
 
 ```yml
@@ -339,7 +405,6 @@ liqi:
 ```
 
 ### `settings.mod.yaml`
-
 这是mod的配置文件，大多数功能直接在游戏中设定即可，只有小部分无法在游戏中设定的，才在此处修改。
 
 修改完成后需要重新启动MajsoulMax。
@@ -382,9 +447,7 @@ resource:
 # 下面是游戏的资源文件内容，包括需要获得的角色、物品等，不需要修改，除非你要自定义
 mod: {}
 ```
-
 ### `settings.helper.yaml`
-
 这是helper的配置文件，若未更改过小助手的地址则无需手动修改。
 
 修改完成后需要重新启动MajsoulMax。
@@ -395,9 +458,7 @@ mod: {}
 config:
   api_url: https://localhost:12121/   # 小助手的地址
 ```
-
 ### `settings.replace.yaml`
-
 这是replace的配置文件，用于存储需要进行替换的游戏文件地址，仅支持网页版，建议在替换前清除浏览器缓存，或在游戏页面使用 `Ctrl+F5` 刷新网页。
 
 修改完成后需要重新启动MajsoulMax。
@@ -409,13 +470,11 @@ config:
   http: []
   lq: []
 ```
-
 <details>
 
 <summary>Example</summary>
 
 例如，我需要替换如下3个文件，用于替换柚的足见独白动态皮肤：
-
 - `https://game.maj-soul.com/1/v0.11.155.w/lang/base/extendRes/charactor/you_BL/spine/spine.skel.txt`
 - `https://game.maj-soul.com/1/v0.11.155.w/lang/base/extendRes/charactor/you_BL/spine/spine.atlas.txt`
 - `https://game.maj-soul.com/1/v0.11.155.w/lang/base/extendRes/charactor/you_BL/spine/you_bl.png`
@@ -436,7 +495,6 @@ config:
 但在这里会遇到一个问题，如果需要同时替换其他动态皮肤，这些动态皮肤同样也会使用 `spine.skel.txt` 和 `spine.atlas.txt` 文件，该如何避免冲突呢？
 
 另外，我也希望在玩其他语言服务器时，同样也能将皮肤给替换掉。拿第一个文件 `spine.skel.txt` 来说，我们观察到不同服务器的地址虽然不同，但仍然有相同之处：
-
 - CN: `https://game.maj-soul.com/1/v0.11.155.w/lang/base/extendRes/charactor/you_BL/spine/spine.skel.txt`
 - EN: `https://mahjongsoul.game.yo-star.com/v0.11.155.w/en/extendRes/charactor/you_BL/spine/spine.skel.txt`
 - JP: `https://game.mahjongsoul.com/v0.11.155.w/jp/extendRes/charactor/you_BL/spine/spine.skel.txt`
@@ -451,9 +509,7 @@ config:
   - /charactor/you_BL/spine/you_bl.png
   lq: []
 ```
-
 而文件则需要根据配置文件进行放置，此时文件树如下：
-
 ```
 MajsoulMax
 ├─ config
@@ -473,11 +529,13 @@ MajsoulMax
 <details>
     <summary>🔞NSFW🔞 小孩子不能点哦</summary>
 
+
 顺便感谢yijyu老师制作的色色l2d动态皮肤，据说也有偿接各种改图，感兴趣的可以去[他的频道（@yijyuqos2）](https://t.me/yijyuqos2)看看
 
 ![image.png](https://s2.loli.net/2026/01/15/RZwfEaYVeHMzSId.png)
 
 </details>
+
 
 </details>
 
