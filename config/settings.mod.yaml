@@ -32,7 +32,7 @@ config:
     200028: 402806
     200029: 402907
     200030: 403003
-    200031: 403102
+    200031: 403105
     200032: 403207
     200033: 403304
     200034: 403404
@@ -45,7 +45,7 @@ config:
     200041: 404102
     200042: 404203
     200043: 404303
-    200044: 404405
+    200044: 404406
     200045: 404505
     200046: 404604
     200047: 404704
@@ -116,7 +116,7 @@ config:
     20000114: 40011401
     20000115: 40011501
     20000116: 40011601
-    20000117: 40011701
+    20000117: 40011703
     20000118: 40011801
     20000119: 40011901
     20000120: 40012002
@@ -207,6 +207,7 @@ config:
   bianjietishi: false # 强制启用便捷提示，用于部分场没有宝牌指示、和牌指示等
   title: 600003 # 当前使用的称号
   loading_image:    # 加载CG
+  - 260701
   - 260602
   - 260601
   - 260501
@@ -298,6 +299,7 @@ config:
   - 210201
   - 201201
   - 201202
+  - 30740023
   - 30740022
   - 30740021
   - 30740020
@@ -1481,6 +1483,8 @@ config:
       skin_id: 404404
     - character_id: 200044
       skin_id: 404405
+    - character_id: 200044
+      skin_id: 404406
     - character_id: 200076
       skin_id: 407602
     - character_id: 200076
@@ -1523,12 +1527,12 @@ config:
       skin_id: 404604
     - character_id: 200046
       skin_id: 404603
-    - character_id: 20000125
-      skin_id: 40012502
-    - character_id: 20000125
-      skin_id: 40012501
-    - character_id: 20000125
-      skin_id: 40012503
+    - character_id: 20000102
+      skin_id: 40010203
+    - character_id: 20000102
+      skin_id: 40010202
+    - character_id: 20000102
+      skin_id: 40010201
     - character_id: 20000124
       skin_id: 40012401
     - character_id: 20000124
@@ -1541,16 +1545,18 @@ config:
       skin_id: 409401
     - character_id: 200094
       skin_id: 409403
-    - character_id: 20000123
-      skin_id: 40012303
-    - character_id: 20000123
-      skin_id: 40012302
-    - character_id: 20000123
-      skin_id: 40012301
-    - character_id: 20000119
-      skin_id: 40011901
-    - character_id: 20000119
-      skin_id: 40011902
+    - character_id: 20000108
+      skin_id: 40010801
+    - character_id: 20000108
+      skin_id: 40010802
+    - character_id: 20000108
+      skin_id: 40010803
+    - character_id: 20000110
+      skin_id: 40011001
+    - character_id: 20000110
+      skin_id: 40011003
+    - character_id: 20000110
+      skin_id: 40011002
     - character_id: 200015
       skin_id: 401503
     - character_id: 200015
@@ -1561,28 +1567,28 @@ config:
       skin_id: 40011701
     - character_id: 20000117
       skin_id: 40011702
-    - character_id: 20000110
-      skin_id: 40011001
-    - character_id: 20000110
-      skin_id: 40011003
-    - character_id: 20000110
-      skin_id: 40011002
-    - character_id: 20000108
-      skin_id: 40010801
-    - character_id: 20000108
-      skin_id: 40010802
-    - character_id: 20000108
-      skin_id: 40010803
+    - character_id: 20000117
+      skin_id: 40011703
+    - character_id: 20000119
+      skin_id: 40011901
+    - character_id: 20000119
+      skin_id: 40011902
+    - character_id: 20000123
+      skin_id: 40012303
+    - character_id: 20000123
+      skin_id: 40012302
+    - character_id: 20000123
+      skin_id: 40012301
     - character_id: 200079
       skin_id: 407901
     - character_id: 200079
       skin_id: 407903
     - character_id: 200079
       skin_id: 407902
-    - character_id: 20000102
-      skin_id: 40010203
-    - character_id: 20000102
-      skin_id: 40010202
-    - character_id: 20000102
-      skin_id: 40010201
+    - character_id: 20000125
+      skin_id: 40012502
+    - character_id: 20000125
+      skin_id: 40012501
+    - character_id: 20000125
+      skin_id: 40012503
   safe_mode: false  # 地铁模式，将除自己外所有人变成一姬初始形象，防止被误认为玩黄油。电脑形象请打开“游戏设置-偏好-电脑形象-一姬的初始形象”选项。

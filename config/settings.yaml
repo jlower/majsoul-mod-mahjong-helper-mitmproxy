@@ -7,5 +7,5 @@ plugin_enable:
 liqi:
   auto_update: true  # 是否自动更新
   github_token: '' # 仅供自己使用，请勿泄漏给任何人
-  liqi_version: 0.16.250-4.0.45 # 本地liqi文件版本
+  liqi_version: 0.16.257-4.0.45 # 本地liqi文件版本
   liqi_hash: 3076135875138f06a48e5e7dd7d4dda680cd14a4d46c63b0e2369ccfc3c0669f
