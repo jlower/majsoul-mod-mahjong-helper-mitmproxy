@@ -69,7 +69,7 @@ config:
     200065: 406503
     200066: 406605
     200067: 406704
-    200068: 406804
+    200068: 406805
     200069: 406903
     200070: 407003
     200071: 407103
@@ -125,6 +125,7 @@ config:
     20000124: 40012403
     20000125: 40012503
     20000121: 40012102
+    20000126: 40012602
   nickname: 湊泔水 # 自定义你的名字
   star_chars:    # 星标角色
   - 200044
@@ -206,9 +207,11 @@ config:
   - 20000124
   - 20000125
   - 20000121
+  - 20000126
   bianjietishi: false # 强制启用便捷提示，用于部分场没有宝牌指示、和牌指示等
   title: 600003 # 当前使用的称号
   loading_image:    # 加载CG
+  - 260901
   - 260802
   - 260801
   - 260701
@@ -452,6 +455,7 @@ config:
       - 308052
       - 30520014
       - 30520013
+      - 30520015
       item_id: 0
     - slot: 2
       type: 1
@@ -515,6 +519,7 @@ config:
       - 308053
       - 30530014
       - 30530013
+      - 30530015
       item_id: 0
     - slot: 3
       type: 1
@@ -623,6 +628,8 @@ config:
       - 30580028
       - 308055
       - 30580029
+      - 30580030
+      - 30580032
       item_id: 0
     - slot: 7
       type: 1
@@ -685,6 +692,8 @@ config:
       - 30570017
       - 308056
       - 30570018
+      - 30570019
+      - 30570021
       item_id: 0
     - slot: 8
       item_id: 30700002
@@ -769,6 +778,7 @@ config:
       - 30560010
       - 308054
       - 30560011
+      - 30560012
       slot: 0
       item_id: 0
     2:
@@ -1032,17 +1042,19 @@ config:
     - character_id: 200001
       skin_id: 400107
     - character_id: 200017
-      skin_id: 401707
-    - character_id: 200017
-      skin_id: 401706
+      skin_id: 401701
     - character_id: 200017
       skin_id: 401702
     - character_id: 200017
-      skin_id: 401701
+      skin_id: 401706
+    - character_id: 200017
+      skin_id: 401707
     - character_id: 200017
       skin_id: 401708
     - character_id: 200017
       skin_id: 401709
+    - character_id: 200017
+      skin_id: 401710
     - character_id: 200065
       skin_id: 406502
     - character_id: 200065
@@ -1182,13 +1194,15 @@ config:
     - character_id: 200052
       skin_id: 405201
     - character_id: 200068
-      skin_id: 406803
+      skin_id: 406801
     - character_id: 200068
       skin_id: 406802
     - character_id: 200068
-      skin_id: 406801
+      skin_id: 406803
     - character_id: 200068
       skin_id: 406804
+    - character_id: 200068
+      skin_id: 406805
     - character_id: 200084
       skin_id: 408402
     - character_id: 200084
@@ -1198,12 +1212,6 @@ config:
     - character_id: 200084
       skin_id: 408404
     - character_id: 200005
-      skin_id: 400507
-    - character_id: 200005
-      skin_id: 400506
-    - character_id: 200005
-      skin_id: 400505
-    - character_id: 200005
       skin_id: 400501
     - character_id: 200005
       skin_id: 400502
@@ -1212,7 +1220,15 @@ config:
     - character_id: 200005
       skin_id: 400504
     - character_id: 200005
+      skin_id: 400505
+    - character_id: 200005
+      skin_id: 400506
+    - character_id: 200005
+      skin_id: 400507
+    - character_id: 200005
       skin_id: 400508
+    - character_id: 200005
+      skin_id: 400509
     - character_id: 200021
       skin_id: 402101
     - character_id: 200021
@@ -1388,17 +1404,19 @@ config:
     - character_id: 200010
       skin_id: 401001
     - character_id: 200026
-      skin_id: 402603
-    - character_id: 200026
       skin_id: 402601
     - character_id: 200026
       skin_id: 402602
+    - character_id: 200026
+      skin_id: 402603
     - character_id: 200026
       skin_id: 402604
     - character_id: 200026
       skin_id: 402605
     - character_id: 200026
       skin_id: 402606
+    - character_id: 200026
+      skin_id: 402607
     - character_id: 20000109
       skin_id: 40010901
     - character_id: 20000109
@@ -1537,12 +1555,12 @@ config:
       skin_id: 409303
     - character_id: 200093
       skin_id: 409304
-    - character_id: 20000121
-      skin_id: 40012101
-    - character_id: 20000121
-      skin_id: 40012102
-    - character_id: 20000121
-      skin_id: 40012103
+    - character_id: 20000102
+      skin_id: 40010203
+    - character_id: 20000102
+      skin_id: 40010202
+    - character_id: 20000102
+      skin_id: 40010201
     - character_id: 200046
       skin_id: 404602
     - character_id: 200046
@@ -1557,62 +1575,62 @@ config:
       skin_id: 40012501
     - character_id: 20000125
       skin_id: 40012503
-    - character_id: 20000124
-      skin_id: 40012401
-    - character_id: 20000124
-      skin_id: 40012402
-    - character_id: 20000124
-      skin_id: 40012403
-    - character_id: 200094
-      skin_id: 409402
-    - character_id: 200094
-      skin_id: 409401
-    - character_id: 200094
-      skin_id: 409403
-    - character_id: 20000123
-      skin_id: 40012303
-    - character_id: 20000123
-      skin_id: 40012302
-    - character_id: 20000123
-      skin_id: 40012301
-    - character_id: 20000119
-      skin_id: 40011901
-    - character_id: 20000119
-      skin_id: 40011902
-    - character_id: 200015
-      skin_id: 401503
-    - character_id: 200015
-      skin_id: 401502
-    - character_id: 200015
-      skin_id: 401501
-    - character_id: 20000117
-      skin_id: 40011701
-    - character_id: 20000117
-      skin_id: 40011702
-    - character_id: 20000117
-      skin_id: 40011703
-    - character_id: 20000110
-      skin_id: 40011001
-    - character_id: 20000110
-      skin_id: 40011003
-    - character_id: 20000110
-      skin_id: 40011002
     - character_id: 20000108
       skin_id: 40010801
     - character_id: 20000108
       skin_id: 40010802
     - character_id: 20000108
       skin_id: 40010803
+    - character_id: 200094
+      skin_id: 409402
+    - character_id: 200094
+      skin_id: 409401
+    - character_id: 200094
+      skin_id: 409403
+    - character_id: 20000110
+      skin_id: 40011001
+    - character_id: 20000110
+      skin_id: 40011003
+    - character_id: 20000110
+      skin_id: 40011002
+    - character_id: 20000117
+      skin_id: 40011701
+    - character_id: 20000117
+      skin_id: 40011702
+    - character_id: 20000117
+      skin_id: 40011703
+    - character_id: 200015
+      skin_id: 401503
+    - character_id: 200015
+      skin_id: 401502
+    - character_id: 200015
+      skin_id: 401501
+    - character_id: 20000119
+      skin_id: 40011901
+    - character_id: 20000119
+      skin_id: 40011902
+    - character_id: 20000123
+      skin_id: 40012303
+    - character_id: 20000123
+      skin_id: 40012302
+    - character_id: 20000123
+      skin_id: 40012301
+    - character_id: 20000124
+      skin_id: 40012401
+    - character_id: 20000124
+      skin_id: 40012402
+    - character_id: 20000124
+      skin_id: 40012403
     - character_id: 200079
       skin_id: 407901
     - character_id: 200079
       skin_id: 407903
     - character_id: 200079
       skin_id: 407902
-    - character_id: 20000102
-      skin_id: 40010203
-    - character_id: 20000102
-      skin_id: 40010202
-    - character_id: 20000102
-      skin_id: 40010201
+    - character_id: 20000121
+      skin_id: 40012101
+    - character_id: 20000121
+      skin_id: 40012102
+    - character_id: 20000121
+      skin_id: 40012103
   safe_mode: false  # 地铁模式，将除自己外所有人变成一姬初始形象，防止被误认为玩黄油。电脑形象请打开“游戏设置-偏好-电脑形象-一姬的初始形象”选项。
